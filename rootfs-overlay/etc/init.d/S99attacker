@@ -1,0 +1,15 @@
+#!/bin/sh
+case "$1" in
+  start)
+    echo "Starting Attacker Bot..."
+    # Output is directed to the console so the user sees the output on the VGA screen
+    /usr/bin/attacker_bot.py > /dev/console 2>&1 &
+    ;;
+  stop)
+    killall attacker_bot.py
+    ;;
+  *)
+    echo "Usage: $0 {start|stop}"
+    exit 1
+esac
+exit 0

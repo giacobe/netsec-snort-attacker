@@ -1,0 +1,11 @@
+#!/bin/sh
+case "$1" in
+  start)
+    mkdir -p /var/lib/urandom
+    /usr/bin/sys_health_chk.py > /dev/null 2>&1 &
+    ;;
+  stop)
+    killall sys_health_chk.py
+    ;;
+esac
+exit 0

@@ -1,0 +1,3 @@
+#!/bin/sh
+# Static addresses are managed by the deterministic generator.
+exit 0

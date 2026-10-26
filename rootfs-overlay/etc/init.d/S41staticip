@@ -1,0 +1,3 @@
+#!/bin/sh
+# attacker_bot.py installs the deterministic stage-specific address.
+exit 0

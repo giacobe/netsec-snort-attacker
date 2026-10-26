@@ -1,0 +1,15 @@
+# path type mode uid gid major minor start inc count
+/etc/hostname                         f 0644 0 0 - - - - -
+/etc/issue                            f 0644 0 0 - - - - -
+/etc/inittab                          f 0644 0 0 - - - - -
+/etc/network/interfaces              f 0644 0 0 - - - - -
+/etc/init.d/S41staticip               f 0755 0 0 - - - - -
+/etc/init.d/S45connman                f 0755 0 0 - - - - -
+/etc/init.d/S98syshealth              f 0755 0 0 - - - - -
+/etc/init.d/S99attacker               f 0755 0 0 - - - - -
+/etc/init.d/S99staticip               f 0755 0 0 - - - - -
+/etc/snort/rules/local.rules          f 0644 0 0 - - - - -
+/usr/bin/attacker_bot.py              f 0755 0 0 - - - - -
+/usr/bin/found                        f 0755 0 0 - - - - -
+/usr/bin/sys_health_chk.py            f 0755 0 0 - - - - -
+/usr/lib/snort-lab/scenario.py        f 0644 0 0 - - - - -
